@@ -1,0 +1,7 @@
+# Place "config.txt" changes (dtparam, dtoverlay, disable_overscan, etc.) in
+# this file. Please refer to the README file for a description of the various
+# configuration files on the boot partition.
+
+# Enable rockpi-sata board to auto detect hard drives
+gpio=25,26=op,dh
+dtparam=i2c1=on
